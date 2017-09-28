@@ -5,6 +5,7 @@ YELLOW = '\033[93m'
 DEFAULT_COLOR = '\033[0m'
 GREEN = '\033[92m'
 BLUE = '\033[94m'
+RED = '\033[91m'
 
 #define functions that return a string in a color of choice
 def in_color(color_mode, x) :
@@ -19,10 +20,14 @@ def in_green(x) :
 def in_blue(x):
 	return in_color(BLUE, x)
 
+def in_red(x):
+	return in_color(RED, x)
+
 #example usage
 print in_blue('print this in blue')
 print in_green('print this in green')
 print in_yellow('print this in yellow')
+print in_red('print this in red')
 print ''
 
 #end of lesson: learn how to print in colors
