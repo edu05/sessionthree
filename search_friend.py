@@ -26,11 +26,10 @@ def in_red(x):
 #example usage
 print in_blue('print this in blue')
 print in_green('print this in green')
-print in_yellow('print this in yellow')
 print in_red('print this in red')
 print ''
 
-#end of lesson: learn how to print in colors
+#end of lesson: learn how to print in colours
 
 #don't need to understand this function's code, try to resist the temptation to read it
 #I don't understand it - I copied it from https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#Python
